@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Com_chose</class>
+ <widget class="QWidget" name="Com_chose">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1250</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/res/icon.jpg</normaloff>:/res/icon.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/res/Com_01.png);</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-100</y>
+     <width>1181</width>
+     <height>821</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/res/Com_03.png);</string>
+   </property>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>200</y>
+      <width>311</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/res/Com_02.png);</string>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>291</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton
+
+{
+	background-image:url(:/res/A01.png);
+	background-position:center;
+	background-repeat: no-repeat;
+    color: rgb(192, 255, 169);
+	font: 900 24pt &quot;Arial Black&quot;;
+	border:none
+}
+QPushButton:hover
+{
+    background-image: url(:/res/A00.png);
+    border:none
+}
+QPushButton:press
+{
+    background-image: url(:/res/A00.png);
+   color: rgb(192, 255, 169);
+    font: 900 24pt &quot;Arial Black&quot;;
+    border:none
+}
+</string>
+     </property>
+     <property name="text">
+      <string>01关</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>230</y>
+       <width>171</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 24pt &quot;Arial Rounded MT Bold&quot;;
+color: rgb(74, 95, 63);
+background-image: url(:/res/zh.png);</string>
+     </property>
+     <property name="text">
+      <string>敬请期待</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="A3">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>200</y>
+      <width>160</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	background-image:url(:/res/A04.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	border:none
+}
+QPushButton:hover
+{
+    background-image: url(:/res/A05.png);
+    border:none
+}
+QPushButton:press
+{
+    background-image: url(:/res/A05.png);
+    border:none
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A5">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>350</y>
+      <width>160</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	background-image:url(:/res/A08.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	border:none
+}
+QPushButton:hover
+{
+    background-image: url(:/res/A09.png);
+    border:none
+}
+QPushButton:press
+{
+    background-image: url(:/res/A09.png);
+    border:none
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A2">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>200</y>
+      <width>160</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	background-image:url(:/res/A03.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	border:none
+}
+QPushButton:hover
+{
+    background-image: url(:/res/A02.png);
+    border:none
+}
+QPushButton:press
+{
+    background-image: url(:/res/A02.png);
+    border:none
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A1">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>200</y>
+      <width>160</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	background-image:url(:/res/A01.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	border:none
+}
+QPushButton:hover
+{
+    background-image: url(:/res/A00.png);
+    border:none
+}
+QPushButton:press
+{
+    background-image: url(:/res/A00.png);
+    border:none
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A4">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>350</y>
+      <width>160</width>
+      <height>150</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+	background-image:url(:/res/A06.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	border:none
+}
+QPushButton:hover
+{
+    background-image: url(:/res/A07.png);
+    border:none
+}
+QPushButton:press
+{
+    background-image: url(:/res/A07.png);
+    border:none
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>710</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>返回</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
